@@ -1,1 +1,7 @@
-
+import math
+r=int(input("Enter radius in cm:"))
+h=int(input("Enter height in cm:"))
+volume = math.pi*r*r*h
+surface_area=2*math.pi*r*h
+print('volume of cylinder:{0:.2f}'.format(volume))
+print("surface area:{0:2f}".format(surface_area))
