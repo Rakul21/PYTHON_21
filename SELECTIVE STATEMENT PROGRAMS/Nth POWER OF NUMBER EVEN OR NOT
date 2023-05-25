@@ -1,1 +1,6 @@
-
+number=int(input("Enter base number:"))
+power=int(input("enter power:"))
+if((number**power)%2==0):
+ print("Even")
+else:
+ print("odd")
