@@ -1,1 +1,25 @@
-
+n=int(input('Enter a number:'))
+if n%2==0:
+   a=0
+   b=a
+   while(n>0):
+     digit=n%10
+     a=a*10+digit
+     n=n//10
+   if(a==b):
+     print('The given number is a palindrome.')
+   else:
+     print('The given number is not a palindrome.')
+else:
+     def factorial(num):
+       if num==1:
+         return num
+       else:
+         return num*factorial(num-1)
+   print('The factorial of',num,'is',factorial(num))
+   count=0
+   number=factorial(num)
+   while(number>0):
+       number=number//10
+       count=count+1
+   print('The number of digits in factorial is',count)
