@@ -1,0 +1,16 @@
+a=str(input("Enter first string:\n"))
+b=str(input("Enter second string:\n"))
+c=''
+d=0
+len1=len(a)
+len2=len(b)
+for iter1 in range(0,len2):
+ for iter2 in range(d,len1):
+     if(b[iter1]==a[iter2]):
+       c=c+a[iter2]
+       d=iter2+1
+       break
+if(b==c):
+   print("yes")
+else:
+   print("no")
